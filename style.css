@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input, select {
+  padding: 6px;
+  margin-top: 4px;
+}
+
+.input-error {
+  border: 2px solid red;
+  box-shadow: 0 0 3px red;
+}
+
+.input-success {
+  border: 2px solid green;
+  box-shadow: 0 0 3px green;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+  min-height: 14px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 8px;
+}
